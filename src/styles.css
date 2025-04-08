@@ -111,14 +111,14 @@ input{
 
 .input-icon1{
     padding-left: 40px;
-    background-image: url("../images/icon-dollar.svg"); 
+    background-image: url("../frontend-13-homework01/images/icon-dollar.svg" );
     background-repeat: no-repeat;
     background-position: 10px center;
 }
 
 .input-icon2{
     padding-left: 40px;
-    background-image: url("../images/icon-person.svg"); 
+    background-image: url("../frontend-13-homework01/images/icon-person.svg" );
     background-repeat: no-repeat;
     background-position: 10px center;
 }
@@ -192,10 +192,10 @@ input{
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
     main {
       flex-direction: column; 
-      padding:10px;
+      padding:20px;
     }
   
     .layout__left,
