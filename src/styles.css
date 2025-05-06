@@ -147,6 +147,7 @@ input {
 
 .calculator__title span{
     font-size: var(--font-micro);
+    font-weight: 400;
 }
 
 .calculator__result-tip{
