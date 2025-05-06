@@ -13,14 +13,23 @@
   <header>
     <img src="./images/logo.svg" alt="logo">
   </header>
+
   <main class ="calculator">
     <section class ="calculator__input">
       <div class="calculator__bill">
         <p>bill</p>
         <input type="number" value="0">
       </div>
-      <div class="calculator__tip">
+      <div class="calculator__tip-label">
         <p>Select Tim</p>
+          <div class="calculator__tip-options">
+            <button class="tip-option">5%</button>
+            <button class="tip-option">10%</button>
+            <button class="tip-option">15%</button>
+            <button class="tip-option">20%</button>
+            <button class="tip-option">25%</button>
+            <input type="number" placeholder="Custom">
+          </div>
       </div>
       <div class="calculator__people">
         <p>Number of People</p>
@@ -47,6 +56,7 @@
           <span>$0.00</span>
         </div>
       </div>
+      <button> RESET </button>
     </section>
   </main>
 
